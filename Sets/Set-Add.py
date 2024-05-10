@@ -5,8 +5,8 @@
 
 # Find the total number of distinct country stamps.
 
-# Sample Input
-# 7
+# Sample Input                                                       # Sample Output
+# 7                                                                  # 5
 # UK
 # China
 # USA
@@ -14,9 +14,6 @@
 # New Zealand
 # UK
 # France 
-
-# Sample Output
-# 5
 
 n = int(input())
 result = set()
