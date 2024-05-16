@@ -11,8 +11,8 @@
 # You only know the value of K and the room number list.
 
 def find_captains_room(k, room_numbers):
-    total_sum = sum(room_numbers)
-    unique_sum = sum(set(room_numbers))
+    total_sum = sum(room_numbers)   # Calculates the total sum of all room numbers in the list room_numbers.
+    unique_sum = sum(set(room_numbers))  # Converts room_numbers to a set to remove duplicates, then calculates the sum of the unique room numbers.
     return (k * unique_sum - total_sum) // (k - 1)
 
 # Sample input
